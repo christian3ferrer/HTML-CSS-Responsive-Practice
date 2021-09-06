@@ -215,11 +215,91 @@ footer a {
 
 /*Tablet*/
 @media(max-width: 800px){
-
+    #about{
+        height: 90vh;
+        background-position: right;
+    }
+about div{
+    width:35%;
+    margin-right: 5%;
+}
+.text div {
+    width: 65%;
+}
 }
 
 /*Phone*/
 
 @media(max-width: 500px){
-    
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        width: 10%;
+    }
+    .links{
+        width: 90%;
+    }
+    #about{
+        background-image: none;
+        background-color: #dddee0;
+        height:auto;
+        justify-content: center;
+        text-align: center;
+    }
+    #about div{
+        width: 90%;
+        margin-right: 0;
+    }
+    .container{
+        justify-content: center;
+    }
+    .text .succulants, .tropicals, .cacti{
+         width: 90%;
+    }
+    .succulants, .tropicals, .cacti{
+        height: 40vh;
+    }
+    .one{
+        order: 1;
+    }
+    .two{
+        order: 2;
+    }
+    .three{
+        order: 3;
+    }
+    .four{
+        order: 4;
+    }
+    .five{
+        order: 5;
+    }
+    .six{
+        order: 6;
+    }
+    footer{
+        justify-content: center;
+    }
+    .left .right{
+        width: 90%;
+    }
+    .left div{
+        line-height: 1.5;
+    }
+    footer h2 {
+        order: -2;
+    }
+    .right{
+        order: -1;
+    }
+    .right img {
+        width: 70%;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .copyright p {
+        margin-right: 0;
+    }
 }
